@@ -1,6 +1,6 @@
 # Use Ubuntu because of its better font hinting defaults
 FROM ubuntu:12.04
-MAINTAINER Kevin Wetzels <kevin@roam.be
+MAINTAINER Kevin Wetzels <kevin@roam.be>
 # Add a local copy (because Sourceforge)
 ADD wkhtmltox-0.12.1_linux-precise-amd64.deb .
 # Install prerequisites and common fonts
